@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - program generates a random number 
+ * main - program generates a random number
  * and checks if positive or negative then prints it
  * Return: 0 if succesful
  */
