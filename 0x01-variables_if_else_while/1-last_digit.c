@@ -6,7 +6,7 @@
  * then prints
  * Return: 0 if succesful
  */
-int void(main)
+int main(void)
 {
 	int n;
 
