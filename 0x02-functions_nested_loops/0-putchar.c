@@ -5,10 +5,16 @@
  */
 int main(void)
 {
-	char ch[10] = "_putchar";
+	char str[] = "_putchar\n";
+	int i = 0;
 
-	_putchar(ch);
-	_putchar('\n');
+	while (str[i] != '\0')
+	{
+		char c = str[i];
+		_putchar(c);
+
+		i++;
+	}
 	
 	return (0);
 }
